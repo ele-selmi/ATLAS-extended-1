@@ -17,11 +17,11 @@ if (( $choice == 1 )) ; then
   for i in {0..1} ; do
     analysisName=${analysisCollection[$i]}
     echo "Creating the directory: Analysis/${analysisName}/Output_${analysisName}"
-    mkdir Analysis/${analysisName}/Output_${analysisName}
+    mkdir Analysis/Hl4/Output_${analysisName}
   done
 
   echo "Creating the directory for the Plotting code: Plotting/histograms"
-  mkdir Plotting/histograms
+  mkdir Plots/histograms
 
 # removing everything within directories
 elif  (( $choice == 0 )) ; then
