@@ -17,7 +17,7 @@ if (( $choice == 1 )) ; then
   for i in {0..1} ; do
     analysisName=${analysisCollection[$i]}
     echo "Creating the directory: Analysis/${analysisName}/Output_${analysisName}"
-    mkdir Analysis/Hl4/Output_${analysisName}
+    mkdir Analysis/H4l/Output_${analysisName}
   done
 
   echo "Creating the directory for the Plotting code: Plotting/histograms"
