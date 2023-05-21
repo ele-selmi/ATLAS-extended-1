@@ -12,7 +12,7 @@ root -l -b <<EOF
 
 .L $analysis.C+
 ## The analysis.C file will be loaded and compile as a shared library
-
+$analysis
 EOF
 
 ##
