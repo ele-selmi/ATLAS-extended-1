@@ -11,7 +11,8 @@ root -l -b <<EOF
 ## ROOT will be run in line and batch mode until the EOF command is met
 
 .L $analysis.C+
-## The analysis.C file will be loaded and compile as a shared library
+## The analysis.C file will be loaded and compiled as a shared library
+$analysis
 
 EOF
 
